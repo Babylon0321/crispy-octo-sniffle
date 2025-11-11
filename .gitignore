@@ -2,5 +2,31 @@
 # この .gitignore ファイルは Microsoft(R) Visual Studio によって自動的に作成されました。
 ################################################################################
 
-/CalcAdd/.vs/CalcAdd/CopilotIndices/17.14.1368.60722
+## Visual Studio 一時ファイル
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## ビルド結果
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+
+## NuGet
+packages/
+*.nupkg
+
+## その他
+*.log
+*.tmp
+
+
+
 /CalcAdd/.vs
